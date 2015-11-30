@@ -1,0 +1,15 @@
+{
+  "name": "HelloWidget.js",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/HelloWidget.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kylealexis",
+  "license": "BSD-2-Clause"
+}
