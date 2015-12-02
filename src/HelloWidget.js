@@ -11,3 +11,6 @@ function HelloWidget(x, y) {
 HelloWidget.prototype.getArea = function() {
     return this.x * this.y;
 };
+HelloWidget.prototype.devideArea = function() {
+    return this.x / this.y;
+};
