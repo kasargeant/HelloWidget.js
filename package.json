@@ -1,15 +1,41 @@
 {
-  "name": "HelloWidget.js",
-  "version": "0.0.1",
-  "description": "",
-  "main": "src/HelloWidget.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "kylealexis",
-  "license": "BSD-2-Clause"
+    "name": "HelloWidget.js",
+    "version": "0.0.1",
+    "description": "",
+    "main": "src/HelloWidget.js",
+    "directories": {
+        "test": "test"
+    },
+    "devDependencies": {
+        "jscs": "2.6.0",
+        "jshint": "2.8.0"
+    },
+    "jscsConfig": {
+        "preset": "google",
+        "validateQuoteMarks": { "mark": "\"", "escape": true },
+        "validateIndentation": 4,
+        "jsDoc": {
+            "checkAnnotations": "closurecompiler",
+            "checkParamNames": true,
+            "requireParamTypes": true,
+            "checkRedundantParams": true,
+            "checkReturnTypes": true,
+            "checkRedundantReturns": true,
+            "requireReturnTypes": true,
+            "checkTypes": true,
+            "checkRedundantAccess": true
+        }
+    },
+    "jshintConfig": {
+        "undef": true,
+        "unused": true,
+        "predef": [ "self" ]
+    },
+    "scripts": {
+        "lint": "lint.bat",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "kylealexis",
+    "license": "BSD-2-Clause"
 }
