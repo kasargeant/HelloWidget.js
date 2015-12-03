@@ -22,16 +22,16 @@ HelloWidget.prototype.add = function() {
  * @returns {number}
  */
 HelloWidget.prototype.subtract = function() {
+    var pointless;
+    var useless = pointless;
     return this.x + this.y;
 };
 /**
- * Multiplies the two member numbers
+ * Divides the two member numbers
+ * @returns {number}
  */
-HelloWidget.prototype.devideArea  = function() {
-
-
-    var z;
-    return  this.x +this.y;
+HelloWidget.prototype.divide = function() {
+    return this.x / this.y;
 };
 /**
  * Multiplies the two member numbers
